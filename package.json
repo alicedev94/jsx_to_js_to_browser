@@ -1,0 +1,16 @@
+{
+    "name": "jsx-to-js",
+    "version": "1.0.0",
+    "description": "Convertir JSX a JavaScript",
+    "main": "index.js",
+    "scripts": {
+        "build": "babel App.jsx --out-file App.js",
+        "dev": "serve -s ."
+    },
+    "dependencies": {
+        "@babel/cli": "^7.23.4",
+        "@babel/core": "^7.23.5",
+        "@babel/preset-react": "^7.23.3",
+        "serve": "^14.2.4"
+    }
+}
